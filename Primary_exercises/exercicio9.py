@@ -1,0 +1,6 @@
+n1=int(input('digite a primeira nota: '))
+p1=int(input('digite o peso da primeira nota: '))
+n2=int(input('digite a segunda nota: '))
+p2=int(input('digite o peso da segunda nota: '))
+media=(n1*p1+n2*p2)/(p1+p2)
+print('o valor da media final é: ',media)
